@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+React-Test-Quiz-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📚 1. Описание проекта:
+React-Test-Quiz-App – это интерактивное приложение для проведения викторины на тему JavaScript. Пользователь отвечает на вопросы, отслеживает прогресс и получает итоговый результат с рекомендацией по улучшению знаний. Проект построен с использованием React и имеет простой и чистый пользовательский интерфейс.
 
-## Available Scripts
+🚀 2. Функциональность.
+  - Отображение вопросов: На экране выводится текущий вопрос, варианты ответов и его тема.
+  - Подсчёт результатов: Система автоматически подсчитывает баллы и анализирует результаты.
+  - Прогресс-бар: Пользователь видит прогресс прохождения викторины.
+  - Обратная связь: По завершении теста пользователю отображается результат с индивидуальным сообщением и оценкой.
+  - Перезапуск теста: Возможность начать тест заново с нуля.
 
-In the project directory, you can run:
+🛠️ 3. Технологии.
+  - React: Библиотека для создания пользовательского интерфейса.
+  - Sass: Для стилизации приложения.
+  - JSON: Хранение вопросов и ответов в data.json.
 
-### `npm start`
+📦 4. Установка и запуск проекта.
+  - Склонируйте репозиторий: git clone https://github.com/bellatrisa1/React-Test-Quiz-App.git
+  - Перейдите в директорию проекта.
+  - Установите зависимости: npm install
+  - Запустите приложение: npm start
+  - Приложение откроется в браузере по адресу http://localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📁 5. Структура проекта.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+react-test-quiz-app/
+│
+├── public/              # Статические файлы
+├── src/                 # Исходный код
+│   ├── components/      # Компоненты приложения
+│   │   ├── Header.jsx   # Заголовок
+│   │   ├── ProgressBar.jsx  # Прогресс-бар
+│   │   ├── Question.jsx # Компонент вопроса
+│   │   └── Result.jsx   # Итоговый результат
+│   │
+│   ├── App.js           # Основной компонент приложения
+│   ├── data.json        # База данных с вопросами
+│   ├── App.scss         # Общие стили
+│   └── index.js         # Точка входа
+│
+├── package.json         # Зависимости и скрипты
+└── README.md            # Описание проекта
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📸 6. Скриншоты.
+  - ![Снимок экрана 2024-12-17 в 19 44 20](https://github.com/user-attachments/assets/a70d1fc4-f37d-4141-b7c9-cd09c7636f21)
+  - ![Снимок экрана 2024-12-17 в 19 45 36](https://github.com/user-attachments/assets/8ff7519d-8e85-49fc-bbd6-4d6498ce77b6)
+  - ![Снимок экрана 2024-12-17 в 19 45 14](https://github.com/user-attachments/assets/9f0d72aa-994b-4fb8-95a7-376e8622add1)
