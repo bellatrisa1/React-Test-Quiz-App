@@ -1,0 +1,210 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "topic": "1. Типы данных",
+      "text": "Какие из следующих являются примитивными типами данных в JavaScript?",
+      "answers": [
+        { "text": "A) Object, String, Boolean", "isCorrect": false },
+        { "text": "B) Number, String, Boolean", "isCorrect": true },
+        { "text": "C) Array, Object, Symbol", "isCorrect": false },
+        { "text": "D) Function, Number, BigInt", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "2. Сравнение",
+      "text": "Чем отличается == от ===?",
+      "answers": [
+        {
+          "text": "A) Они одинаковы, оба сравнивают значения.",
+          "isCorrect": false
+        },
+        {
+          "text": "B) == сравнивает значения, а === сравнивает только типы.",
+          "isCorrect": false
+        },
+        {
+          "text": "C) == сравнивает значения с приведением типов, а === без приведения типов.",
+          "isCorrect": true
+        },
+        {
+          "text": "D) == используется для чисел, а === для строк.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "3. Область видимости",
+      "text": "Какую область видимости имеет переменная, объявленная через var?",
+      "answers": [
+        { "text": "Блочная", "isCorrect": false },
+        { "text": "Функциональная", "isCorrect": true },
+        { "text": "Глобальная", "isCorrect": false },
+        { "text": "Локальная", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "4. Замыкания",
+      "text": "Что такое замыкание?",
+      "answers": [
+        {
+          "text": "A) Это функция, которая всегда возвращает объект.",
+          "isCorrect": false
+        },
+        {
+          "text": "B) Это механизм, позволяющий одной функции вызывать другую.",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Это функция, которая \"запоминает\" доступ к переменным из внешней области видимости, даже после завершения её работы.",
+          "isCorrect": true
+        },
+        {
+          "text": "D) == используется для чисел, а === для строк.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "5. this",
+      "text": "Как определяется значение this в обычной функции?",
+      "answers": [
+        {
+          "text": "A) Всегда указывает на глобальный объект.",
+          "isCorrect": false
+        },
+        {
+          "text": "B) Указывает на объект, в контексте которого вызвана функция.",
+          "isCorrect": true
+        },
+        {
+          "text": "C) Определяется автоматически в зависимости от аргументов.",
+          "isCorrect": false
+        },
+        {
+          "text": "D) Равен undefined в нестрогом режиме.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "6. Асинхронность",
+      "text": "Что делает ключевое слово async?",
+      "answers": [
+        {
+          "text": "A) Объявляет асинхронную функцию, которая возвращает Promise.",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Останавливает выполнение функции.",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Делает код синхронным.",
+          "isCorrect": false
+        },
+        {
+          "text": "D) Указывает, что функция работает только с await.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "7. Промисы",
+      "text": "Что делает метод .then() в JavaScript?",
+      "answers": [
+        {
+          "text": "A) Выполняет обработчик ошибок.",
+          "isCorrect": false
+        },
+        {
+          "text": "B) Добавляет задержку перед выполнением следующего действия.",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Выполняет функцию после успешного завершения промиса.",
+          "isCorrect": true
+        },
+        {
+          "text": "D) Прерывает выполнение кода.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "8. Модули",
+      "text": "Какой оператор используется для экспорта функции из файла?",
+      "answers": [
+        {
+          "text": "A) require",
+          "isCorrect": false
+        },
+        {
+          "text": "B) export",
+          "isCorrect": true
+        },
+        {
+          "text": "C) import",
+          "isCorrect": false
+        },
+        {
+          "text": "D) module.exports",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "9. Работа с массивами",
+      "text": "Какой метод используется для добавления элемента в конец массива?",
+      "answers": [
+        {
+          "text": "A) push()",
+          "isCorrect": true
+        },
+        {
+          "text": "B) pop()",
+          "isCorrect": false
+        },
+        {
+          "text": "C) shift()",
+          "isCorrect": false
+        },
+        {
+          "text": "D) unshift()",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "10. event loop",
+      "text": "Что такое цикл событий (event loop) и как он работает?",
+      "answers": [
+        {
+          "text": "A) Механизм, который управляет выполнением асинхронного кода.",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Цикл, который повторяется до тех пор, пока переменная не станет false.",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Это метод объекта, который вызывает функцию асинхронно.",
+          "isCorrect": false
+        },
+        {
+          "text": "D) Это технология, позволяющая соединять сервер с клиентом.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
