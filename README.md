@@ -24,23 +24,20 @@ React-Test-Quiz-App – это интерактивное приложение �
 
 📁 5. Структура проекта.
 
-react-test-quiz-app/
-│
-├── public/              // Статические файлы
-├── src/                 // Исходный код
-│   ├── components/      // Компоненты приложения
-│   │   ├── Header.jsx   // Заголовок
-│   │   ├── ProgressBar.jsx  // Прогресс-бар
-│   │   ├── Question.jsx // Компонент вопроса
-│   │   └── Result.jsx   // Итоговый результат
-│   │
-│   ├── App.js           // Основной компонент приложения
-│   ├── data.json        // База данных с вопросами
-│   ├── App.scss         // Общие стили
-│   └── index.js         // Точка входа
-│
-├── package.json         # Зависимости и скрипты
-└── README.md            # Описание проекта
+    react-test-quiz-app/
+        public/ — Статические файлы
+        src/ — Исходный код
+            components/ — Компоненты приложения
+                Header.jsx — Заголовок
+                ProgressBar.jsx — Прогресс-бар
+                Question.jsx — Компонент вопроса
+                Result.jsx — Итоговый результат
+            App.js — Основной компонент приложения
+            data.json — База данных с вопросами
+            App.scss — Общие стили
+            index.js — Точка входа
+        package.json — Зависимости и скрипты
+        README.md — Описание проекта
 
 📸 6. Скриншоты.
   - ![Снимок экрана 2024-12-17 в 19 44 20](https://github.com/user-attachments/assets/a70d1fc4-f37d-4141-b7c9-cd09c7636f21)
